@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preencha seu Currículo</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Fonte Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" 
+          rel="stylesheet">
+</head>
+
+<body>
+
+<h1>Preencha seu Currículo</h1>
+
+<form action="/form_post_result" method="post" class="form-box">
+
+    <label>Nome completo:
+        <input type="text" name="nome" required>
+    </label>
+
+    <label>Área desejada:
+        <input type="text" name="area" required>
+    </label>
+
+    <label>Experiência (anos):
+        <input type="number" name="experiencia" min="0">
+    </label>
+
+    <label>Nível de inglês:
+        <select name="ingles">
+            <option>Básico</option>
+            <option>Intermediário</option>
+            <option>Avançado</option>
+            <option>Fluente</option>
+        </select>
+    </label>
+
+    <label>Habilidades técnicas:</label>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="skills" value="Python"> Python</label>
+        <label><input type="checkbox" name="skills" value="Excel"> Excel</label>
+        <label><input type="checkbox" name="skills" value="SQL"> SQL</label>
+        <label><input type="checkbox" name="skills" value="HTML/CSS"> HTML/CSS</label>
+    </div>
+
+    <label>Disponibilidade:
+        <input type="text" name="disponibilidade">
+    </label>
+
+    <label>Pretensão salarial:
+        <input type="text" name="salario">
+    </label>
+
+    <button type="submit">Enviar</button>
+
+</form>
+
+</body>
+</html>
