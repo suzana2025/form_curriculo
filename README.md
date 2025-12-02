@@ -2,7 +2,7 @@
 
 Este repositório tem duas versões de um projeto de formulário de currículo:
 
-- **Original** (`original/FormulariosSamaraGurupi`): projeto da minha irmã, Samara Gurupi, onde ela praticou métodos GET e POST em Flask.  
+- **Original** (`original/FormulariosSamaraGurupi`): projeto da minha irmã, Samara Santos, onde ela praticou métodos GET e POST em Flask.  
 - **Versão Estendida** (`original-extended`): minha versão aprimorada, onde adicionei novos campos, validação de dados e organizei melhor o código e o layout.
 
 ---
